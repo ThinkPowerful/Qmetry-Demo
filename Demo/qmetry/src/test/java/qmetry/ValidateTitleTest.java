@@ -7,7 +7,7 @@ public class ValidateTitleTest {
 	@Test
 	public void validateTitle()
 	{
-		System.out.println("Title Validated");
+		System.out.println("Title is Validated");
 	}
 	
 }
