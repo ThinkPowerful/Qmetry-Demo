@@ -7,7 +7,7 @@ public class ValidateLoginTest {
 	@Test
 	public void validateLogin()
 	{
-		System.out.println("Login Validated");
+		System.out.println("Login is Validated");
 	}
 
 }
