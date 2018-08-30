@@ -24,7 +24,7 @@ public class ValidateLoginTest {
 		Assert.assertTrue(title);
 		
 		 try {
-			 Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe");
+			 Runtime.getRuntime().exec("taskkill /F /IM IEDriverServer.exe *32");
 			 } catch (IOException e) {
 			 e.printStackTrace();
 			 }
